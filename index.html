@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Kyle O'Neill | Portfolio Website</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="index.css" />
+<link rel="stylesheet" href="http://photographicblog.com/themes/photum/wp-content/themes/photum/pagenavi-css.css" type="text/css" media="screen" />
+<link rel="pingback" href="http://photographicblog.com/themes/photum/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Photum Theme &raquo; Feed" href="http://photographicblog.com/themes/photum/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Photum Theme &raquo; Comments Feed" href="http://photographicblog.com/themes/photum/comments/feed/" />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=3.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://photographicblog.com/themes/photum/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://photographicblog.com/themes/photum/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4.2" />
+<link href="http://photographicblog.com/themes/photum/wp-content/themes/photum/styles/default.css" rel="stylesheet" type="text/css" />
+			<link rel="shortcut icon" href="http://photographicblog.com/themes/photum/wp-content/themes/photum/admin/images/favicon.ico" />
+<script>
+
+$(document).ready(function() {
+
+	//move the image in pixel
+	var move = 0;
+	
+	//zoom percentage, 1.2 =120%
+	var zoom = 2;
+
+	//On mouse over those thumbnail
+	$('.item').hover(function() {
+		
+		//Set the width and height according to the zoom percentage
+		width = $('.item').width() * zoom;
+		height = $('.item').height() * zoom;
+		
+		//Move and zoom the image
+		$(this).find('img').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:200});
+		
+		//Display the caption
+		$(this).find('div.caption').stop(false,true).fadeIn(200);
+	},
+	function() {
+		//Reset the image
+		$(this).find('img').stop(false,true).animate({'width':$('.item').width(), 'height':$('.item').height(), 'top':'0', 'left':'0'}, {duration:100});	
+
+		//Hide the caption
+		$(this).find('div.caption').stop(false,true).fadeOut(200);
+	});
+
+});
+
+</script>
+
+
+</head>
+
+<body class="home blog layout-2cr">
+<div id="wrapper" class="hfeed">
+ 
+		<div id="primary" class="widget-area" role="complementary">
+<div id="site-title">
+                  		         <div class="logo"><center><a href="http://ethnofuture.com/portfolio"><img style="float:left;" src="img/logo.png" alt="none" /></a></center>
+                 <br />
+                 <p>Portfolio and Perspective
+                                       by Kyle A. O'Neill</p></div>
+                        
+                 
+				</div>
+<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"><ul id="menu-header" class="menu"><li id="menu-item-78" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-78"><a href="http://ethnofuture.com"><b>Home</b></a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href=>Design</a></li>
+<li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href=>Perspective</a></li>
+<li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href=>Work</a></li>
+<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href=>Fun</a></li>
+<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://www.ethnofuture.com/portfolio/Resume">Resume</a></li>
+<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href=>Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href=>E-Mail</a></li>
+	<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href=>Twitter</a></li>
+	<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href=>Facebook</a></li>
+	<li id="menu-item-187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187"><a href=>Linkedin</a></li>
+</ul>
+</li>
+</ul></div>			</div><!-- #access -->
+
+			<ul class="xoxo">
+
+<li id="categories-2" class="widget-container widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	
+    <li class="cat-item cat-item-29"><a href=>Illustration</a>
+</li>
+	<li class="cat-item cat-item-28"><a href=>Print</a>
+</li>
+	<li class="cat-item cat-item-27"><a href=>Film</a>
+</li>
+	<li class="cat-item cat-item-3"><a href=>Photography</a>
+</li>
+	<li class="cat-item cat-item-43"><a href=>Writings</a>
+</li>
+	<li class="cat-item cat-item-48"><a href=>Art</a>
+</li>
+    <li class="cat-item cat-item-48"><a href=>Experiments</a>
+</li>
+    <li class="cat-item cat-item-48"><a href=>Academic</a>
+</li>
+    <li class="cat-item cat-item-48"><a href=>Software</a>
+</li>
+    <li class="cat-item cat-item-48"><a href=>Research</a>
+</li>
+    <li class="cat-item cat-item-48"><a href=>Observation</a>
+</li>
+    <li class="cat-item cat-item-48"><a href=>Theory</a>
+</li>
+    </ul>
+</li>			</ul>
+		</div><!-- #primary .widget-area -->
+  	<div id="main"> 
+    <div id="home-wrap">		<div id="container">
+			<div id="content" role="main">
+<div id="move">
+			
+
+     
+
+	            	<div id="post-167" class="post-167 photo type-photo status-publish hentry category-general-photos tag-beetle tag-car tag-volkswagen">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/book.png" class="attachment-main-thumbnail wp-post-image" alt="17" title="17" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=http://www.behance.net/gallery/9171353/Yoshimi-Lyric-bookYoshimi> Battles the Pink Robots (booklet)</a></h2>
+		<div class="entry-meta">2012</div>
+        <span>
+        <br />
+               </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-165" class="post-165 photo type-photo status-publish hentry category-random-photos tag-random tag-traffic-lights">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/low.png" class="attachment-main-thumbnail wp-post-image" alt="16" title="16" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=http://www.ethnofuture.com/portfolio/bottle>Semantic Symbols</a></h2>
+		<div class="entry-meta">2011</div>
+        <span>
+        <a href=//Http></a><br />
+         <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-163" class="post-163 photo type-photo status-publish hentry category-technology-photos tag-forts tag-sea">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/abs.png" class="attachment-main-thumbnail wp-post-image" alt="15" title="15" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=>Color Fields of the Unconcious (Untitled #1)</a></h2>
+		<div class="entry-meta">2012</div>
+        <span>
+        <a href=></a><br />
+         <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-161" class="post-161 photo type-photo status-publish hentry category-general-photos tag-lomo-2 tag-parasol">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/cars.png" class="attachment-main-thumbnail wp-post-image" alt="14" title="14" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=http://www.behance.net/gallery/10442617/Car-Production-Info-Graph>Automobile Info-Graphics</a></h2>
+		<div class="entry-meta">2012</div>
+        <span>
+        <a href=></a><br />
+        <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-159" class="post-159 photo type-photo status-publish hentry category-lomo tag-auntie tag-scooter">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/head.png" class="attachment-main-thumbnail wp-post-image" alt="13" title="13" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=http://www.behance.net/gallery/11434905/School-Poster-Contest>Perspective Alters Reality</a></h2>
+		<div class="entry-meta">2012</div>
+        <span>
+        <a href=></a><br />
+         <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-153" class="post-153 photo type-photo status-publish hentry category-lomo tag-break-dancing tag-lomo-2">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/cart.png" class="attachment-main-thumbnail wp-post-image" alt="11" title="11" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=>Childhood Dreamscape</a></h2>
+		<div class="entry-meta">2011</div>
+        <span>
+        <a href=></a><br />
+      <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-151" class="post-151 photo type-photo status-publish hentry category-lomo category-technology-photos tag-lomo-2 tag-printing-press">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/atmos.png" class="attachment-main-thumbnail wp-post-image" alt="10" title="10" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=>Street - Vein . Artery - Highway</a></h2>
+		<div class="entry-meta">2010</div>
+        <span>
+        <a href= ></a><br />
+         <a href=></a> <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-149" class="post-149 photo type-photo status-publish hentry category-holiday-photos tag-beach tag-holiday tag-sunny">
+<div class="item">      
+<a href="http://photographicblog.com/themes/photum/photo/fresher/" title="Permalink to Fresher" rel="bookmark"><img width="234" height="190" src="img/messi.png" class="attachment-main-thumbnail wp-post-image" alt="9" title="9" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href="http://www.ethnofuture.com/portfolio/messi">Lionel Messiah</a></h2>
+		<div class="entry-meta">2012</div>
+        <span>
+        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-146" class="post-146 photo type-photo status-publish hentry category-technology-photos tag-music tag-studio tag-technology">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/mona.png" class="attachment-main-thumbnail wp-post-image" alt="8" title="8" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href="http://www.ethnofuture.com/portfolio/mona">Pablo's Red Period</a></h2>
+		<div class="entry-meta">2011</div>
+        <span>
+        <a href=></a><br />
+         <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-144" class="post-144 photo type-photo status-publish hentry category-random-photos tag-holiday tag-random tag-swimming">
+<div class="item">      
+<a href="http://ethnofuture.com" title="Permalink" rel="bookmark"><img width="234" height="190" src="img/Wat.png" class="attachment-main-thumbnail wp-post-image" alt="7" title="7" /></a>
+ <a href="ethnofuture.com" title="Permalink" rel="bookmark">
+<div class="caption">
+		<h2 class="entry-title">            <a href="http://www.ethnofuture.com/ski" title="Permalink" rel="bookmark">Misc. Info graphics</a></h2>
+		<div class="entry-meta">2012 - 2013</div>
+        <span>
+        <a href="http://ethnofuture.com" title="none"></a><br />
+         <a href="http://ethnofuture.com" title="none" rel="category tag"></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-141" class="post-141 photo type-photo status-publish hentry category-holiday-photos tag-aquaman tag-pool tag-water">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/uni.png" class="attachment-main-thumbnail wp-post-image" alt="6" title="6" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href="http://www.ethnofuture.com/portfolio/uni">Patterns in Nature (Universal Design)</a></h2>
+		<div class="entry-meta">2012</div>
+        <span>
+        <a href=></a><br />
+         <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-139" class="post-139 photo type-photo status-publish hentry category-holiday-photos tag-beach tag-sunset">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/money.png" class="attachment-main-thumbnail wp-post-image" alt="5" title="5" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=>Who's name is better than Silver and Gold?</a></h2>
+		<div class="entry-meta">2014</div>
+        <span>
+        <a href=></a><br />
+        <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-136" class="post-136 photo type-photo status-publish hentry category-lomo tag-lomo-2 tag-photo">
+<div class="item">      
+<a href=><img width="234" height="190" src="img/class.png" class="attachment-main-thumbnail wp-post-image" alt="4" title="4" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title">            <a href=>Classical Drawing</a></h2>
+		<div class="entry-meta">2010</div>
+        <span>
+        <a href=></a><br />
+        <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-134" class="post-134 photo type-photo status-publish hentry category-lomo tag-lomo-2 tag-modelloo tag-photo">
+<div class="item">      
+<a href="http://photographicblog.com/themes/photum/photo/mondelloo/" title="Permalink to Mondelloo" rel="bookmark"><img width="234" height="190" src="img/ding.png" class="attachment-main-thumbnail wp-post-image" alt="zero" title="" /></a>
+ <a href="" title="Permalink to Mondelloo" rel="bookmark">
+<div class="caption">
+		<h2 class="entry-title">            <a href="" title="" rel="bookmark">Playing with Dingbats</a></h2>
+		<div class="entry-meta">2011</div>
+        <span>
+        <a href=></a><br />
+      <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+
+
+	            	<div id="post-132" class="post-132 photo type-photo status-publish hentry category-holiday-photos tag-photo tag-viv">
+<div class="item">      
+<img width="234" height="190" src="img/co.png" class="attachment-main-thumbnail wp-post-image" alt="2" title="2" /></a>
+ <a href=>
+<div class="caption">
+		<h2 class="entry-title"><a href=http://www.behance.net/gallery/10442719/Colorado-Shape-Mix> Colorado symbol disection </h2>
+		<div class="entry-meta">2012</div>
+        <span>
+        <a href=></a><br />
+         <a href=></a>        </span>
+           </a>
+	</div>
+ </div>
+ </div><!-- #post-## -->
+ 	
+                   <div class="clr"></div>
+				<div id="nav-below" class="navigation">
+              										<div class="wp-pagenavi">
+</div>
+				</div><!-- #nav-below -->
+                    </div>
+                        <div class="clr"></div>
+              	<div id="footer" role="contentinfo">
+           		<div id="site-info">
+				Copyright &copy; 2014 <a href="http://ethnofuture.com" title="Portfolio" rel="home">
+					Fantastic Man				</a>. All rights open.<br /> ethnofuture <a href="http://ethnofuture.com">$</a>
+.
+			</div><!-- #site-info -->
+	</div><!-- #footer -->   
+			</div><!-- #content -->
+           	</div><!-- #container -->          
+	</div><!-- #main -->
+    </div><!-- #wrapper -->
+<script src="http://photographicblog.com/themes/photum/wp-content/themes/photum/js/jquery.masonry.min.js"></script>
+<script>
+  $(function(){
+    
+    console.time('masonry');
+    $('#move').masonry({
+      itemSelector: '.item',
+      columnWidth: 30,
+      isAnimated: true
+    }).masonry().masonry();
+    console.timeEnd('masonry');
+    
+  });
+</script>
+</body>
+</html>
